@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="25dp">
+
+    <Button
+        android:id="@+id/btnHuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Human" />
+
+    <Button
+        android:id="@+id/btnHalfling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHuman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/Halfling" />
+
+    <Button
+        android:id="@+id/btnBacktoClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Classes"
+        android:textSize="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmRace"
+        android:text="@string/Confirm_Race"
+        android:layout_below="@+id/rgHalflingSubraces"
+        android:layout_toRightOf="@+id/btnBacktoClass"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="125dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rgHalflingSubraces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHalfling"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        >
+
+        <RadioButton
+            android:id="@+id/rbtLightfootHalfling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lightfoot"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/rbtStoutHalfling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stout"
+            android:checked="false"/>
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>

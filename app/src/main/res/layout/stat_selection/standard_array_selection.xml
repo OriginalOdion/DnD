@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="10dp"
+        >
+        <include layout="@layout/stat_header"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <include
+            layout="@layout/str_standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stat_header"/>
+
+        <include
+            layout="@layout/dex_standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/str_standard" />
+
+        <include
+            layout="@layout/con_standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dex_standard" />
+
+        <include
+            layout="@layout/int_standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/con_standard" />
+
+        <include
+            layout="@layout/wis_standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/int_standard" />
+        <include
+            layout="@layout/cha_standard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wis_standard" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+

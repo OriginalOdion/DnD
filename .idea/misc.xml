@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.183" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.183" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/cha_standard.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/class_selection.xml" value="0.1" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/con_standard.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/dex_standard.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/int_standard.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/race_selection.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/standard_array_selection.xml" value="0.1632047477744807" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/stat_header.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/stat_selection.xml" value="0.33" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/stat_selection_test.xml" value="0.5" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/str_standard.xml" value="0.24700854700854702" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/str_standard_fragment.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/layout/wis_standard.xml" value="0.30104166666666665" />
+        <entry key="..\:/Users/denni/AndroidStudioProjects/DD/app/src/main/res/menu/test.xml" value="0.3020833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
